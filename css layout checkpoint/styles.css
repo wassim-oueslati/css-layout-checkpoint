@@ -1,0 +1,445 @@
+/* initialisation */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #747474;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+h1,h2,h3,h4{
+    margin: 3px 0 3px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 270;
+    letter-spacing: -.3px;
+}
+
+
+/* Header section */
+.navbar{
+    display: flex;
+    justify-content: space-between; 
+    height: 70px;
+    margin: 0 245px 0 245px;
+    padding: 7px 20px 7px 20px;       
+}
+
+.bar {
+    display:flex;    
+}
+
+.bar ul li{
+    list-style-type:none;
+    background-color: transparent;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+.bar ul li a{
+    text-decoration: none;
+    color: #ababab;
+    display: block;
+    text-align: left;      
+}
+
+.bar ul li ul {
+    position: absolute;
+    visibility: hidden;
+    min-width: 220px;
+    box-shadow: 3px 3px 3px 3px #d3cfc9;
+}
+
+.bar ul li:hover ul{
+    visibility: visible;
+}
+
+.bar ul li a:hover {
+    color: #00b39b;
+}
+
+#about{
+    color:#00b39b ;
+}
+
+
+/* section 1 */
+.section1{
+    margin: 5px 245px 20px 245px;      
+}
+
+#logoo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lead__logo h1{
+    display: flex;
+    justify-content: center;
+    color: #00b39b;
+    margin-top: 1cm;
+}
+
+.sec1p {
+    margin-top: 40px;
+    display: flex;   
+    padding: 0.5%;      
+}
+
+.sec1p p {
+    padding: 1%;   
+    line-height: 1.75;
+    font-weight: 400; 
+    font-size: 17px;      
+}
+
+
+/* section 2 */
+.section2{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    margin: 70px 245px 20px 245px;
+    width: 66.66%;  
+}
+
+.section2 h1{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.section2 h2{
+    color: white;
+}
+
+.patients{
+    background-color: #00ccb1;  
+    padding: 3.5%;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 24.5%;   
+}
+
+.doctors{
+    background-color: #3d83df;
+    padding: 3.5%;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 24.5%;   
+}
+
+.clinics{
+    background-color:#1b2734 ;
+    padding: 3.5%;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24.5%;
+}
+
+.selec select{
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 3%;
+    color: white;
+    font-size: 19px;
+}
+
+.selec select option{
+    color: black;
+}
+
+
+/* section 3 */
+.brand-sec{
+    margin: 40px 245px 10px 245px;
+}
+
+.section3{
+    display: flex;
+}
+
+.sec3-left{
+    width: 400px;
+    padding: 1%;
+}
+
+.sec3-right{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.sec3-right-logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0;
+    list-style: none;
+    width: 85%;
+}
+
+.sec3-right-logos li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 130px;
+    padding: 5px 10px;
+}
+.sec3-right-logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.sec3-right-logos .log1 {
+    width: 175px;
+}
+.sec3-right-logos .log2 {
+    width: 85px;
+}
+.sec3-right-logos .log3 {
+    width: 90px;
+}
+.sec3-right-logos .log3 img {
+    height: 34px;
+}
+
+/* section 4 */
+.section4{
+    background: #e5faf8;
+    padding: 0.5em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    display: flex;   
+}
+
+.left-right{
+    margin: 10px 245px 10px 245px;
+    display: flex;
+}
+
+.sec4-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    width: 50%; 
+    height: 200px;
+    margin-top: 20px;
+    padding: 10px 2px 10px 2px;     
+}
+
+.sec4-left p{
+    max-width: 420px;
+}
+
+
+.sec4-right{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap; 
+    padding: 2%;
+    width: 50%;
+}
+
+.sec4-right h3{
+    font-size: 22px;
+    color: #00b39b;
+    margin: 20px 0 8px 0;   
+}
+
+.sec4-right p{
+    line-height: normal;
+    font-size: 14px;
+}
+
+
+#logo2{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.part1{
+    display: block;
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: .8125em;
+    width: 40%;
+    margin: 15px 18px 0 0;      
+}
+
+.part2{
+    display: block;
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: .8125em;
+    width: 40%;
+    margin-top:13px;
+    transform: translateY(-30px);
+}
+
+.part3{
+    display: block;
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: .8125em;
+    width: 40%;
+    margin: 20px 18px 0 0;   
+}
+
+.part4{
+    display: block;
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: .8125em;
+    width: 40%;
+    margin-top: 18px;
+    transform: translateY(-30px);
+}
+
+
+/* section 5 */
+.section5{
+    max-width: 480px;
+    margin: 0 auto 4.1875rem;
+    font-size: 16px;
+    text-align: center;    
+}
+
+.section5 p{
+    margin: 15px 0 15px 0;
+}
+
+
+/* section 6 */
+.section6{
+    margin: 50px 245px 50px 245px;
+}
+
+.sec6-div1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.office__desc {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+}
+
+.office{
+    margin-top: 15px;
+}
+
+.office .btn {
+    float: right;
+}
+
+.btn--small {
+    font-size: .625rem;
+    padding: 1em 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 0.5em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .7rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+.office__inner {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+    text-decoration: none;
+}
+
+
+/* section 7 */
+.section7{
+    margin: 80px 0 60px 0;
+}
+
+.join-us__header{
+    padding: 0 30px 0 30px;
+    text-align: center;
+}
+
+.join-us__header h1{
+    color:black;
+    font-family:'Times New Roman', Times, serif;    
+}
+
+.join-us__header a{
+    margin: 25px;
+}
+
+
+/* footer */
+.section__footer{
+    padding: 30px 0 30px 0;
+    text-align: center;
+    color: #747474;
+}
+
+.section__footer a{
+    text-decoration: none;
+}
+
+.section__footer p{
+    padding: 0.5%;
+}
